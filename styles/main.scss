@@ -1,0 +1,48 @@
+@import "base/variables";
+@import "base/mixins";
+@import "base/typography";
+@import "base/manifest";
+@import "vendor/normalize";
+body {
+    font-family: $font-text, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    line-height: 24px;
+    font-size: rem(16);
+    font-weight: 400;
+    color: $text-color;
+}
+.wrapper{
+	min-height: 100%;
+	width: 100%;
+}
+section p{
+    padding: 13px 0;
+}
+.nosvg{
+	display: none;
+}
+aside{
+	width: 100%;
+}
+.hidden{
+	display: none;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+ 
+}
+@media only screen and (max-width: 993px){
+    
+}
+@media only screen and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 650px){
+   
+}
+@media only screen and (max-width: 480px){
+   
+}

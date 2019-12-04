@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Частные грузоперевозки | Ростов-на-Дону</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon"  href="favicon.ico">
+    <svg width="0" height="0" class="hidden">
+      <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18" id="phone">
+        <g clip-path="url(#a)">
+          <path fill="#fff" d="M17.537 12.914L15.3 10.738c-.617-.6-1.621-.6-2.238 0l-1.017.99a1.224 1.224 0 0 1-1.695 0L5.94 7.434a1.143 1.143 0 0 1 0-1.649l1.017-.99a1.509 1.509 0 0 0 0-2.176L4.72.45c-.616-.6-1.62-.6-2.235 0l-.816.786a5.45 5.45 0 0 0 0 7.85l6.985 6.797c2.23 2.17 5.84 2.17 8.07 0l.813-.791c.617-.6.617-1.576 0-2.177zM3.23 1.176c.205-.2.54-.2.746 0l2.237 2.17a.5.5 0 0 1 0 .725l-.373.363-2.981-2.9.37-.358zM9.4 15.157L2.415 8.36a4.421 4.421 0 0 1-.29-6.088l2.972 2.892a2.147 2.147 0 0 0 .098 2.998l4.409 4.292a2.297 2.297 0 0 0 3.081.095l2.973 2.892a4.723 4.723 0 0 1-6.258-.283zm7.391-.791l-.372.362-2.984-2.902.373-.363c.206-.2.54-.2.746 0l2.237 2.177c.206.2.206.525 0 .726z"></path>
+        </g>
+        <defs>
+          <clipPath id="a">
+            <path fill="#fff" d="M0 0h18v17.509H0z"></path>
+          </clipPath>
+        </defs>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 22" id="ruble">
+        <g fill="#DE5443" clip-path="url(#a)">
+          <path d="M18.777 3.224a10.992 10.992 0 0 0-15.553 0 10.991 10.991 0 0 0 0 15.553 10.991 10.991 0 0 0 15.553 0 10.992 10.992 0 0 0 0-15.553zM11 20.192c-5.067 0-9.19-4.124-9.19-9.191C1.81 5.933 5.933 1.81 11 1.81c5.068 0 9.191 4.123 9.191 9.19 0 5.069-4.123 9.192-9.19 9.192z"></path>
+          <path d="M12.376 5.508H9.165a.903.903 0 0 0-.904.904v3.685H7.33a.903.903 0 1 0 0 1.806h.932v.947H7.33a.903.903 0 1 0 0 1.806h.932v.932a.903.903 0 1 0 1.807 0v-.932h1.85a.903.903 0 1 0 0-1.806h-1.85v-.947h2.308a3.201 3.201 0 0 0 3.198-3.197 3.201 3.201 0 0 0-3.198-3.198zm0 4.589h-2.308V7.315h2.308c.767 0 1.391.624 1.391 1.39 0 .768-.624 1.392-1.39 1.392z"></path>
+        </g>
+        <defs>
+          <clipPath id="a">
+            <path fill="#fff" d="M0 0h22v22H0z"></path>
+          </clipPath>
+        </defs>
+      </symbol>
+      <symbol viewBox="0 0 55 34" fill="none" xmlns="http://www.w3.org/2000/svg" id="menu">
+        <rect width="55" height="5" rx="2.5" fill="#ffffff"></rect>
+        <rect x="18.627" y="14.236" width="36.373" height="5" rx="2.5" fill="#ffffff"></rect>
+        <rect x="10" y="29" width="45" height="5" rx="2.5" fill="#ffffff"></rect>
+      </symbol>
+      <symbol viewBox="0 0 190 190" fill="none" xmlns="http://www.w3.org/2000/svg" id="arr-nex">
+        <circle cx="95" cy="95" r="95" fill="#FFFAF0"></circle>
+        <path d="M120.5 74L145 95l-24.5 22" stroke="#B1B1B1" stroke-width="2"></path>
+      </symbol>
+      <symbol viewBox="0 0 190 190" fill="none" xmlns="http://www.w3.org/2000/svg" id="arr-rev">
+        <circle cx="95" cy="95" r="95" transform="rotate(180 95 95)" fill="#FFFAF0"></circle>
+        <path d="M69.5 116L45 95l24.5-22" stroke="#B1B1B1" stroke-width="2"></path>
+      </symbol>
+    </svg>
+</head>
+<body>
+   
+    <div class="wrapper">
+        <header style="background: url(img/bg.jpg) center no-repeat;">
+            <div class="bg-proz">
+                <div class="container">
+                    <div class="flex flex-header">
+                        <div class="logou flex">
+                            <div class="link"><a href=""><img src="img/logo.svg" alt=""></a></div>
+                            <div class="slogan">Работаем по Ростовской обл. и Краснодару</div>
+                        </div>
+                        <div class="menu-phone">
+                            <div class="phone flex jcfe">
+                                <div class="ph">
+                                    <svg class="icon">
+                                      <use xlink:href="#phone"></use>
+                                    </svg><a href="tel:8 (928) 614-96-90">8 (928) <strong>614-96-90</strong></a></div>
+                                <div class="ph">
+                                    <svg class="icon">
+                                      <use xlink:href="#phone"></use>
+                                    </svg><a href="tel:8 (961) 301-03-34">8 (961) <strong>301-03-34</strong></a></div>
+                                <div class="callback">
+                                    <div class="btn"><a class="popup-with-form" href="#window-modal-id"><button>Обратный звонок</button></a></div>
+                                </div>
+                            </div>
+                            <div class="menuha" >
+                                <ul class="">      
+                                    <li class="active"><a href="">Бани Бочки</a></li>
+                                    <li><a href="">Купели</a></li>
+                                    <li><a href="">Чаны</a></li>
+                                    <li><a href="">Барбекю</a></li>
+                                    <li><a href="">Горячие акции</a></li>
+                                    <li><a href="">Наши работы</a></li>
+                                    <li><a href="">О компании</a></li>
+                                </ul>
+                            </div>
+                            <div class="over">
+                                <div class="mmenuha" id="menuha">
+                                    <ul class="mmenu">      
+                                        <li class="active"><a href="">Бани Бочки</a></li>
+                                        <li><a href="">Купели</a></li>
+                                        <li><a href="">Чаны</a></li>
+                                        <li><a href="">Барбекю</a></li>
+                                        <li><a href="">Горячие акции</a></li>
+                                        <li><a href="">Наши работы</a></li>
+                                        <li><a href="">О компании</a></li>
+                                    </ul>
+                                    <div id="btn-no-menu"></div>
+                                </div>
+                            </div>
+                            <div id="mmenu"><svg class="icon"><use xlink:href="#menu"></use></svg></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="utp">
+                <h1>
+                    Готовая баня по финской технологии на вашем участке <span>за 1 день! БАНИ-БОЧКИ ИЗ ЕЛИ И КЕДРА ОТ 99 000 РУБЛЕЙ.</span>
+                </h1>
+                <div class="utp-description">
+                    Ответьте на 10 вопросов и получите  <strong>БОНУС</strong>
+                    «17 РЕКОМЕНДАЦИЙ ПО ВЫБОРУ КАЧЕСТВЕННОЙ БАНИ-БОЧКИ»
+                    + <strong>СКИДКУ</strong> на получение бани
+                </div>
+                <div class="btn btn-big"><a class="popup-with-form" href="#test-forma"><button>Пройти тест</button></a></div>
+            </div>
+        </header>
+        <section class="advantages mt-ttl">
+           <div class="decor"><img src="img/advantage-decor.png" alt=""></div>
+            <div class="container">
+                <div class="ttl">
+                    <h2>Чем бани-бочки лучше!</h2>
+                </div>
+                <div class="vilet-advantages flex mt-block">
+                    <div class="col-pol">
+                        <ul class="list-advantages">
+                            <li>ВЫГОДНЕЕ КЛАССИЧЕСКОЙ БАНИ</li>
+                            <li>НАГРЕВАЕТСЯ ЗА 20 МИНУТ ДО 90 ГРАДУСОВ</li>
+                            <li>ЭКОНОМИТ МЕСТО НА ВАШЕМ УЧАСТКЕ</li>
+                            <li>МОБИЛЬНОСТЬ В ИСПОЛЬЗОВАНИИ</li>
+                            <li>Собирается за 2 дня</li>
+                            <li>Не требует никаких документов на строительство</li>
+                            <li>В 10 РАЗ МЕНЬШЕ РАСХОД ДРОВ</li>
+                        </ul>
+                    </div>  
+                    <div class="col-pol">
+                        <div class="img"><img src="img/advantage.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video-triger mt-ttl">
+           <div class="decor"><img src="img/video-decor.png" alt=""></div>
+            <div class="container">
+                <div class="flex flex-video-triger">
+                    <div class="col-pol">
+                        <div class="video-integration">
+                            <iframe src="https://www.youtube.com/embed/QDsffJAfkJ8?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <div class="col-pol">
+                        <div class="oplet-video">
+                            <div class="zag">
+                                <h3>Обязательно к просмотру!</h3>
+                            </div>
+                            <div class="txt">
+                                КАК НЕ СОВЕРШИТЬ ФАТАЛЬНУЮ ОШИБКУ ПОКУПАЯ БАНЮ БОЧКУ?
+                            </div>
+                            <div class="watch">
+                                Смотрите это видео
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="choose-ban mt-ttl">
+           <div class="decor"><img src="img/choose-decor.png" alt=""></div>
+            <div class="container">
+                <div class="ttl">
+                    <h2>Выберите свою баню</h2>
+                </div>
+                <div class="vilet-choose-ban mt-block flex">
+                    <nav id="shooche-ban-nav" class="vilet-choose-ban-nav">
+                        <ul>
+                            <li class="active" data-shooche-ban-nav="100" data-choose-ban-desc="econom">Эконом</li>
+                            <li data-shooche-ban-nav="200" data-choose-ban-desc="standart">Стандарт</li>
+                            <li data-shooche-ban-nav="300" data-choose-ban-desc="comfort">Комфорт</li>
+                            <li data-shooche-ban-nav="400" data-choose-ban-desc="lux">Люкс</li>
+                            <li data-shooche-ban-nav="500" data-choose-ban-desc="superlux">Суперлюкс</li>
+                            <li data-shooche-ban-nav="600" data-choose-ban-desc="mega2">Мега-2</li>
+                            <li data-shooche-ban-nav="700" data-choose-ban-desc="mega3">Мега-3</li>
+                            <li data-shooche-ban-nav="800" data-choose-ban-desc="">Эксклюзив</li>
+                            <li data-shooche-ban-nav="900" data-choose-ban-desc="">Эксклюзив-СВ</li>
+                            <li data-shooche-ban-nav="1000" data-choose-ban-desc="">Овалбочка</li>
+                            <li data-shooche-ban-nav="1100" data-choose-ban-desc="">Мега-СВ</li>
+                        </ul>
+                    </nav>
+                    <div class="choose-ban-show">
+                        <div class="img econom"><img src="img/econom-barrel-1.png" alt=""></div>
+                        <div class="img econom-1"><img src="img/econom-octa-1.png" alt=""></div>
+                        <div class="img econom-2"><img src="img/econom-quadro-1.png" alt=""></div>
+                        <div class="img econom-3"><img src="img/econom-quadro-1.png" alt=""></div>
+                        <div class="img standart"><img src="img/econom-barrel-1.png" alt=""></div>
+                        <div class="img standart-1"><img src="img/econom-octa-1.png" alt=""></div>
+                        <div class="img standart-2"><img src="img/econom-quadro-1.png" alt=""></div>
+                        <div class="img standart-3"><img src="img/econom-quadro-1.png" alt=""></div>
+                        <div class="img comfort"><img src="img/econom-barrel-1.png" alt=""></div>
+                        <div class="img comfort-1"><img src="img/econom-octa-1.png" alt=""></div>
+                        <div class="img comfort-2"><img src="img/econom-quadro-1.png" alt=""></div>
+                        <div class="img comfort-3"><img src="img/econom-quadro-1.png" alt=""></div>
+                        <div class="list">
+                            <ul>
+                                <span class="econom">
+                                    <li>Козырёк перед входной дверью</li>
+                                    <li>Количество секций: 3</li>
+                                    <li>Парная: <span>220 см</span></li>
+                                    <li>Моечное отделение: 120 см</li>
+                                    <li>Команата отдыха: 220 см</li>
+                                    <li>Общая длина: 600 см</li>
+                                    <li>Диаметр: 215 см</li>
+                                    <li>Вес бани: 1980 кг</li>
+                                    <li>Предназначена для: 6-8 человек</li>
+                                </span>
+                                <span class="standart">
+                                    <li>Козырёк перед входной дверью</li>
+                                    <li>Количество секций: 3</li>
+                                    <li>Парная: <span>220 см</span></li>
+                                    <li>Моечное отделение: 120 см</li>
+                                    <li>Команата отдыха: 220 см</li>
+                                    <li>Вес бани: 1980 кг</li>
+                                    <li>Предназначена для: 6-8 человек</li>
+                                </span>
+                                <span class="comfort">
+                                    <li>Козырёк перед входной дверью</li>
+                                    <li>Парная: <span>220 см</span></li>
+                                    <li>Моечное отделение: 120 см</li>
+                                    <li>Команата отдыха: 220 см</li>
+                                    <li>Общая длина: 600 см</li>
+                                    <li>Диаметр: 215 см</li>
+                                    <li>Вес бани: 1980 кг</li>
+                                    <li>Предназначена для: 6-8 человек</li>
+                                </span>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="choose-ban-advanse">
+                        <div class="choose-ban-advanse-forma" id="choose-ban-advanse-forma">
+                            <ul class="econom">
+                                <li data-choose-ban-advanse-forma="100" class="" data-choose-ban-advanse-img="econom">
+                                    <img src="img/image 8.png" alt=""><span>Бочка</span>
+                                </li>
+                                <li data-choose-ban-advanse-forma="200" data-choose-ban-advanse-img="econom-1">
+                                    <img src="img/image 8.png" alt=""><span>Квадро</span>
+                                </li>
+                                <li data-choose-ban-advanse-forma="300" data-choose-ban-advanse-img="econom-2">
+                                    <img src="img/image 8.png" alt=""><span>Окта</span>
+                                </li>
+                            </ul>
+                            <ul class="standart">
+                                <li data-choose-ban-advanse-forma="1000" class="" data-choose-ban-advanse-img="standart">
+                                    <img src="img/image 8.png" alt=""><span>Бочка</span>
+                                </li>
+                                <li data-choose-ban-advanse-forma="2000" data-choose-ban-advanse-img="standart-1">
+                                    <img src="img/image 8.png" alt=""><span>Квадро</span>
+                                </li>
+                                <li data-choose-ban-advanse-forma="3000" data-choose-ban-advanse-img="standart-2">
+                                    <img src="img/image 8.png" alt=""><span>Окта</span>
+                                </li>
+                            </ul>
+                            <ul class="comfort">
+                                <li data-choose-ban-advanse-forma="10000" class="" data-choose-ban-advanse-img="comfort">
+                                    <img src="img/image 8.png" alt=""><span>Бочка</span>
+                                </li>
+                                <li data-choose-ban-advanse-forma="20000" data-choose-ban-advanse-img="comfort-1">
+                                    <img src="img/image 8.png" alt=""><span>Квадро</span>
+                                </li>
+                                <li data-choose-ban-advanse-forma="30000" data-choose-ban-advanse-img="comfort-2">
+                                    <img src="img/image 8.png" alt=""><span>Окта</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="choose-ban-advanse-material" id="choose-ban-advanse-material">
+                            <ul class="econom">
+                                <li  data-choose-ban-advanse-material="100" class=""><img src="img/wood.png" alt=""><span>Ель</span></li>
+                                <li data-choose-ban-advanse-material="200" ><img src="img/wood.png" alt=""><span>Кедр</span></li>
+                            </ul>
+                            <ul class="standart">
+                                <li  data-choose-ban-advanse-material="1000" class=""><img src="img/wood.png" alt=""><span>Ель</span></li>
+                                <li data-choose-ban-advanse-material="2000" ><img src="img/wood.png" alt=""><span>Кедр</span></li>
+                            </ul>
+                            <ul class="comfort">
+                                <li  data-choose-ban-advanse-material="10000" class=""><img src="img/wood.png" alt=""><span>Ель</span></li>
+                                <li data-choose-ban-advanse-material="20000" ><img src="img/wood.png" alt=""><span>Кедр</span></li>
+                            </ul>
+                        </div>
+                        <div class="choose-ban-advanse-cost mt-ttl" id="allCost">
+                            Цена: <span></span><b>₽</b>
+                        </div>
+                        <div class="choose-ban-advanse-bay flex">
+                            <div class="btn-transparent btn-choose-ban-advanse-bay">
+                                <button>Заказать</button>
+                            </div>
+                            <div class="link-credit"><a href="">В кредит</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="femiliarity mt-ttl">
+            <div class="container">
+                <div class="ttl">
+                    <h2>Знакомство с нами</h2>
+                </div>
+                <div class="vilet-femiliarity flex mt-block">
+                    <div class="col-pol">
+                        <div class="txt">
+                            В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн
+                        </div>
+                    </div>
+                    <div class="col-pol">
+                        <div class="video-femiliarity">
+                            <iframe src="https://www.youtube.com/embed/cUxCcVG9n6U?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="static-form mt-block">
+            <div class="container">
+                <div class="oplet">
+                    <div class="vilet-static-form">
+                        <div class="ttl">
+                            <h4>Получить бесплатную консультацию</h4>
+                        </div>
+                        <form class="flex">
+                            <input type="text" name="name-static-form" placeholder="Ваше имя">
+                            <input type="text" name="phone-static-form" placeholder="Ваш телефон">
+                            <div class="btn-transparent"><button><sup>*</sup>Отправить</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slider-plusky mt-ttl">
+            <div class="slidos">
+                <div class="slide" 
+                  style="
+                    background: url(img/plushka-bg.jpg) center no-repeat;
+                   ">
+                    <div class="container">
+                        <div class="bold-txt">
+                            Баня-бочка не является объектом капитального строительства и <strong>не требует никаких документов для установки!</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" 
+                  style="
+                    background: url(img/plushka-bg.jpg) center no-repeat;
+                   ">
+                    <div class="container">
+                        <div class="bold-txt">
+                            Баня-бочка не является объектом капитального строительства и <strong>не требует никаких документов для установки!</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog mt-ttl">
+            <div class="decor"><img src="img/catalog-decor.png" alt=""></div>
+             <div class="container">
+                 <div class="ttl">
+                    <h2>Каталог продукции</h2>
+                </div>
+                <div class="vilet-catalog mt-block slick-catalog">
+                    <div class="catalog-cart">
+                        <div class="img"><img src="img/catalog.png" alt=""></div>
+                        <div class="ttl catalog-cart-ttl">
+                            <h4>Баня бочка «Новогуслево»</h4>
+                        </div>
+                        <div class="flex flex-area">
+                            <div class="razm">Размер: <strong>5х2,4</strong></div>
+                            <div class="plosh">Площадь: <strong>12</strong></div>
+                        </div>
+                        <div class="flex flex-cost">
+                            <div class="cost"><span>199 100</span>₽</div>
+                            <div class="more"><a class="popup-with-form" href="#modal-catalog-more"><button>Подробнее</button></a></div>
+                        </div>
+                    </div>
+                    <div class="catalog-cart">
+                        <div class="img"><img src="img/catalog.png" alt=""></div>
+                        <div class="ttl catalog-cart-ttl">
+                            <h4>Баня бочка «Новогуслево»</h4>
+                        </div>
+                        <div class="flex flex-area">
+                            <div class="razm">Размер: <strong>5х2,4</strong></div>
+                            <div class="plosh">Площадь: <strong>12</strong></div>
+                        </div>
+                        <div class="flex flex-cost">
+                            <div class="cost"><span>199 100</span>₽</div>
+                            <div class="more"><a class="popup-with-form" href="#modal-catalog-more"><button>Подробнее</button></a></div>
+                        </div>
+                    </div>
+                    <div class="catalog-cart">
+                        <div class="img"><img src="img/catalog.png" alt=""></div>
+                        <div class="ttl catalog-cart-ttl">
+                            <h4>Баня бочка «Новогуслево»</h4>
+                        </div>
+                        <div class="flex flex-area">
+                            <div class="razm">Размер: <strong>5х2,4</strong></div>
+                            <div class="plosh">Площадь: <strong>12</strong></div>
+                        </div>
+                        <div class="flex flex-cost">
+                            <div class="cost"><span>199 100</span>₽</div>
+                            <div class="more"><a href=""><button>Подробнее</button></a></div>
+                        </div>
+                    </div>
+                    <div class="catalog-cart">
+                        <div class="img"><img src="img/catalog.png" alt=""></div>
+                        <div class="ttl catalog-cart-ttl">
+                            <h4>Баня бочка «Новогуслево»</h4>
+                        </div>
+                        <div class="flex flex-area">
+                            <div class="razm">Размер: <strong>5х2,4</strong></div>
+                            <div class="plosh">Площадь: <strong>12</strong></div>
+                        </div>
+                        <div class="flex flex-cost">
+                            <div class="cost"><span>199 100</span>₽</div>
+                            <div class="more"><a href=""><button>Подробнее</button></a></div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section class="review mt-ttl">
+            <div class="container">
+                <div class="ttl">
+                    <h2>Реальные отзывы</h2>
+                </div>
+                <div class="vilet-review mt-block">
+                   <div class="prev-arrow arrows"><svg class="icon"><use xlink:href="#arr-rev"></use></svg></div>
+                    <div class="slider-reviewsha">
+                        <div class="slude-rev">
+                            <div class="flex flex-slude-rev">
+                                <div class="video">
+                                    <iframe width="100%" height="" src="https://www.youtube.com/embed/LMhZU_Gt6i8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="oplet-rev">
+                                    <div class="tt">
+                                        <h4>Вера Петровна</h4>
+                                    </div>
+                                    <ul>
+                                        <li>Баня:   <strong>Суперлюкс</strong></li>
+                                        <li>Материал:   <strong>Ель</strong></li>
+                                        <li>Расположение:   <strong>г.Батайск</strong></li>
+                                        <li>Цена:   <strong>179900</strong><b>₽</b></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slude-rev">
+                            <div class="flex flex-slude-rev">
+                                <div class="video">
+                                    <iframe width="100%" height="" src="https://www.youtube.com/embed/LMhZU_Gt6i8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="oplet-rev">
+                                    <div class="tt">
+                                        <h4>Вера Петровна</h4>
+                                    </div>
+                                    <ul>
+                                        <li>Баня:   <strong>Суперлюкс</strong></li>
+                                        <li>Материал:   <strong>Ель</strong></li>
+                                        <li>Расположение:   <strong>г.Батайск</strong></li>
+                                        <li>Цена:   <strong>179900</strong><b>₽</b></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-arrow arrows"><svg class="icon"><use xlink:href="#arr-nex"></use></svg></div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery mt-ttl">
+           <div class="decor-l"><img src="img/gal-r.png" alt=""></div>
+           <div class="decor-r"><img src="img/gal-l.png" alt=""></div>
+            <div class="container">
+                <div class="ttl">
+                    <h2>Наши бочки на участках клиентов</h2>
+                </div>
+                <div class="vilet-gallery mt-block">
+                    <div class="masonry-gallery">
+                        <div class="grid-item"><a href="img/mason.png"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mason.png"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                        <div class="grid-item"><a href="img/mat.jpg"><img src="img/mason.png" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sertify mt-block">
+            <div class="container">
+                <div class="ttl">
+                    <h2>Сертификаты соответствия</h2>
+                </div>
+                <div class="vilet-sertify mt-block magnifuc-sert flex">
+                    <div class="item-sert"><a href="img/sert.png"><img src="img/sert.png" alt=""></a></div>
+                    <div class="item-sert"><a href="img/sert.png"><img src="img/sert.png" alt=""></a></div>
+                    <div class="item-sert"><a href="img/sert.png"><img src="img/sert.png" alt=""></a></div>
+                    <div class="item-sert"><a href="img/sert.png"><img src="img/sert.png" alt=""></a></div>
+                    <div class="item-sert"><a href="img/sert.png"><img src="img/sert.png" alt=""></a></div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+           <div class="mapa">
+               <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6d02339eaf9f099c13ef1e00e246115149122a9442b711bfe303d9d9f8cdc382&amp;width=100%&amp;height=515&amp;lang=ru_RU&amp;scroll=false"></script>
+           </div>
+            <div class="container posr">
+                <div class="cart-contacts">
+                    <div class="address">г.Ростов-га-Дону Промышленная улица, 2</div>
+                    <div class="phones">
+                        <p><a href="tel:8 (928) 614-96-90">8 (928) 614-96-90</a></p>
+                        <p><a href="tel:8 (961) 301-03-34">8 (961) 301-03-34</a></p>
+                    </div>
+                    <div class="mail">
+                        <p><a href="mailto:info@banya-bochka.ru">info@banya-bochka.ru</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="static-form mt-block">
+            <div class="container">
+                <div class="oplet" 
+                   style="background: url(img/bg-end.png) center center no-repeat;
+                   background-size: 90% 80%;
+                   ">
+                    <div class="vilet-static-form">
+                        <div class="ttl">
+                            <h4>Остались вопросы?</h4>
+                        </div>
+                        <form class="flex">
+                            <input type="text" name="name-static-form-2" placeholder="Ваше имя">
+                            <input type="text" name="phone-static-form-2" placeholder="Ваш телефон">
+                            <div class="btn-transparent"><button><sup>*</sup>Отправить</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>  
+    <footer class="mt-ttl">
+        <div class="container">
+            <div class="flex flex-footer">
+                <div class="logo"><a href="/"><img src="img/logo.svg" alt=""></a></div>
+                <div class="menu"><nav>
+                    <ul>
+                        <li><a href="">Бани Бочки</a></li>
+                        <li><a href="">Купели</a></li>
+                        <li><a href="">Чаны</a></li>
+                        <li><a href="">Горячие акции</a></li>
+                        <li><a href="">Наши работы</a></li>
+                        <li><a href="">О нас</a></li>
+                    </ul>
+                </nav></div>
+                <div class="phone">
+                    <ul>
+                        <li><svg class="icon">
+                                      <use xlink:href="#phone"></use>
+                                    </svg><a href="tel:8 (928) 614-96-90">8 (928) 614-96-90</a></li>
+                        <li><svg class="icon">
+                                      <use xlink:href="#phone"></use>
+                                    </svg><a href="tel:8 (961) 301-03-34">8 (961) 301-03-34</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="offerta">
+                <div class="opl">
+                    <p>Расчет и цены, представленные на сайте не являются публичной афертой и представлены в ознакомительных целях. Итоговая стоимость зависит от потолка, его комплектующих и виде оказания услуг. Подробности по телефону 8(951) 512-67-66</p>
+                    <p>Все права защищены. Сайт подготовлен <a target="_blank" href="https://ewal-web.ru">ewal-web.ru</a></p>
+                    <p>Copyright © 2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="window-modal mfp-hide white-popup-block" id="window-modal-id">
+        <form>
+            <div class="oplet-form">
+                <div class="logo-form"><img src="img/logo.svg" alt=""></div>
+                <h2>Обратный звонок</h2>
+            </div>
+             <div class="flex-form">
+                    <input type="text" id="name" name="name" placeholder="Ваше имя" >
+                    <input type="text" name="phone" placeholder="Ваш телефон" >
+                    <div class="btn result"><button id="modal-button">Отправить</button></div>
+            </div>
+            <p class="persd-sogl black-pd">Нажимая кнопку «Отправить» вы соглашаетесь с <a class="soglasie" target="_blank" href="soglasie.html">Пользовательским соглашением</a>  и <a href="persdata.html" target="_blank">Положением о Персональных данных</a>
+            </p>
+        </form>
+    </div>
+    <div class="test-forma mfp-hide white-popup-block" id="test-forma">
+        
+        <iframe id="marquiz__frame_5b7d785636ce0f0044f7b6b2" class="marquiz__frame marquiz__frame_open" src="//quiz.marquiz.ru/5b7d785636ce0f0044f7b6b2?cookies=%7B%7D&amp;href=https%3A%2F%2Fxn----61-43dbec5f1an2iqe.xn--p1ai%2F&amp;mode=modal" scrolling="auto" frameborder="0" style="height: 650px;"></iframe>
+        
+    </div>
+    <div class="modal m3 mfp-hide white-popup-block" id="modal-catalog-more">
+        <div class="modal-tb" style="">
+            <div class="bg-modal"></div>
+            <div class="modal-con">
+                <div class="close1"></div>
+                <div class="cont-p1">
+                    <div class="item1 ac">
+                        <div class="t2">БАНЯ-БОЧКА КОМФОРТ</div>
+                        <div class="flex flex-modal">
+                            <div class="ll1">
+                            <img src="img/comfort-barrel-2.png" alt="">
+                            <span>ВАРИАНТЫ ВНЕШНЕГО ПОКРЫТИЯ И <br>ЦВЕТА КРЫШИ</span>
+                            <img src="img/color-pt1.jpg" alt="">
+                            <p>
+                                *Замена цвета крыши является платной услугой. Стоимость 1000р.        
+                            </p>
+                        </div>
+                            <div class="rr1">
+                                <div class="tb1">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <td>Составные элементы бани бочки</td>
+                                                <td>Под ключ</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Собранная баня из отборного елового профиля толщиной 42 мм, влажностью 10%</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Козырёк 50 см. перед входной дверью (для модификации «С козырьком»)</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Финская дровяная печь Harvia М2 (13 кВт)</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Основание под баню (две деревянные ножки)</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Два собранных полка в парилке из липы или осины</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Дымоход в сборе: проходной узел под дымоход из нержавеющей стали, термоизоляции, резинового
+                                                    уплотнителя с хомутом</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Пожаробезопасное многослойное основание-сэндвич под печь из нержавеющей стали, минерита и
+                                                    вермикулита</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Камни для печи габбро-диабаз 20 кг</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Защита от нагрева из минерита</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Три обруча из нержавеющей стали с замками</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Вентиляционные решетки</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Трапик на пол в парилку </td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Дверь комбинированная из липы со стеклом </td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Крыша из гибкой черепицы. Цвет коричневый</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Обработка антисептиком 2 слоя снаружи</td>
+                                                <td><span>+</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Доставка</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Сборка на участке (в случае не возможности разгрузки бани с помощью манипулятора)</td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="btn"><a class="popup-with-form" href="#window-modal-id"><button>Заказать</button></a></div>
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

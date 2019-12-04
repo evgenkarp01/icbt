@@ -1,0 +1,49 @@
+$bg-color: #fffaf0;
+$bg-head-color: rgba(176, 154, 97, 0.83);
+$link-color: #4C8CAA;
+$bg-brawn-color: #B09A61;
+$wt:#fff;
+$bk:#000;
+$dark-color:#4A4A4A;
+$accent-color: #7e9233;
+$h1-color: #e1d1ad;
+$focus-color: $accent-color;
+$fz: rem(16);
+$h1-fz: 39;
+$h2-fz: 32;
+$h3-fz: 26;
+$h4-fz: 22;
+$h5-fz: 18;
+$h6-fz: 16;
+$btn-color: #de5443;
+$placeholder-color: $h1-color;
+$fz-placeholder: 16px;
+$bgcolor-form: #0083BA;
+$text-color: #363636;
+$browser-context: 16; // Default
+$dir:'../fonts/';
+
+
+$Gbk:  'Gilroy-Black';
+$Gsb: 'Gilroy-SemiBold';
+$G:'Gilroy-Regular';
+$Rb: 'Roboto-Bold';
+$Rm: 'Roboto-Medium';
+$Ri:'Roboto-Italic';
+$R:'Roboto-Regular';
+$GN:'Gilroy';
+$RN:'Roboto';
+$font-text: $RN;
+
+
+$italic: italic;
+$light: 300;
+$normal: normal;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+$heavy: 800;
+$black: 900;
+
+$mt:90px;    /*margin top for HEADER h1-h6*/
+$mb:50px;     /*margin top for BLOCK from header*/
